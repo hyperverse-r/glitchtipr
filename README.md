@@ -1,0 +1,23 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# glitchtipr <img src="man/figures/logo.png" align="right" height="138" alt="" />
+
+<!-- badges: start -->
+
+![hyperverse](https://img.shields.io/badge/hyperverse-232323)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/hyperverse-r/glitchtipr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hyperverse-r/glitchtipr/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/hyperverse-r/glitchtipr/graph/badge.svg)](https://app.codecov.io/gh/hyperverse-r/glitchtipr)
+<!-- badges: end -->
+
+*todo*
+
+## Code of Conduct
+
+Please note that the glitchtipr project is released with a [Contributor
+Code of
+Conduct](https://hyperverse-r.github.io/glitchtipr/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
