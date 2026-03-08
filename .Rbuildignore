@@ -9,3 +9,4 @@
 ^[.]?air[.]toml$
 ^\.vscode$
 ^dev$
+^\.pre-commit-config\.yaml$
