@@ -1,0 +1,31 @@
+url: https://hyperverse-r.github.io/glitchtipr/
+
+development:
+  mode: auto
+
+template:
+  bootstrap: 5
+  theme: dracula
+  bslib:
+    bootswatch: simplex
+    base_font: { google: "Lato" }
+    heading_font: { google: "Vampiro One" }
+    code_font: { google: "JetBrains Mono" }
+    pkgdown-nav-height: 80px
+    primary: "#232323"
+    body: "#232323"
+    info: "#f15521"
+    bg: "#232323"
+    fg: "#e8e8e8"
+    headings-color: "#e8e8e8"
+    link-color: "#a3c4f3"
+    link-hover-color: "#c5d9f8"
+    code-color: "#f8f8f2"
+    code-bg: "#282a36"
+
+navbar:
+  bg: primary
+  type: dark
+  structure:
+    left: [reference, news]
+    right: [search]
