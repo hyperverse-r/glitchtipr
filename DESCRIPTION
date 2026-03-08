@@ -17,7 +17,9 @@ Imports:
     httr2,
     plumber2
 Suggests:
-    testthat (>= 3.0.0)
+    httptest2,
+    testthat (>= 3.0.0),
+    withr
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
