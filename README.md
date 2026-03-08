@@ -35,10 +35,21 @@ above a route — that’s all it takes.
 
 ### Setup
 
+Add your DSN to your `.Renviron` file:
+
+``` sh
+GLITCHTIP_DSN=https://KEY@glitchtip.example.com/PROJECT_ID
+```
+
+You can open `.Renviron` with `usethis::edit_r_environ()`. Restart R
+after saving.
+
+Then connect at the top of your `api.R`:
+
 ``` r
 library(glitchtipr)
 
-gt <- gt_connect()  # reads GLITCHTIP_DSN from environment
+gt <- gt_connect()  # reads GLITCHTIP_DSN — inactive if not set
 ```
 
 ### Protecting a route
