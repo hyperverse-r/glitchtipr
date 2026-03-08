@@ -16,17 +16,10 @@
 #'   reporting.
 #'
 #' @examples
-#' \dontrun{
+#' # With an inactive connection (no DSN), gt_capture() is a transparent no-op
 #' gt <- gt_connect()
 #'
-#' # In a plumber2 route
-#' #* @get /data
-#' function(request) {
-#'   gt_capture(gt, {
-#'     # your route logic here
-#'   }, request = request)
-#' }
-#' }
+#' result <- gt_capture(gt, 1 + 1)
 #'
 #' @export
 gt_capture <- function(gt, expr, request = NULL) {

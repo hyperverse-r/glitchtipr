@@ -2,13 +2,20 @@
 % Please edit documentation in R/gt_connect.R
 \name{gt_connect}
 \alias{gt_connect}
+\alias{print.gt_connection}
 \title{Connect to a GlitchTip or Sentry-compatible instance}
 \usage{
 gt_connect(dsn = Sys.getenv("GLITCHTIP_DSN"))
+
+\method{print}{gt_connection}(x, ...)
 }
 \arguments{
 \item{dsn}{DSN string in the format \verb{https://KEY@HOST/PROJECT_ID}.
 Defaults to the \code{GLITCHTIP_DSN} environment variable.}
+
+\item{x}{A \code{gt_connection} object.}
+
+\item{...}{Ignored. Present for S3 method compatibility.}
 }
 \value{
 A \code{gt_connection} object.

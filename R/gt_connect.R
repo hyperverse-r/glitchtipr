@@ -40,6 +40,9 @@ gt_connect <- function(dsn = Sys.getenv("GLITCHTIP_DSN")) {
   )
 }
 
+#' @rdname gt_connect
+#' @param x A `gt_connection` object.
+#' @param ... Ignored. Present for S3 method compatibility.
 #' @export
 print.gt_connection <- function(x, ...) {
   if (!x$active) {
