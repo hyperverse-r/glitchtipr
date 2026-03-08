@@ -10,6 +10,9 @@ will be a no-op — the application continues to run normally.
 
 ``` r
 gt_connect(dsn = Sys.getenv("GLITCHTIP_DSN"))
+
+# S3 method for class 'gt_connection'
+print(x, ...)
 ```
 
 ## Arguments
@@ -18,6 +21,14 @@ gt_connect(dsn = Sys.getenv("GLITCHTIP_DSN"))
 
   DSN string in the format `https://KEY@HOST/PROJECT_ID`. Defaults to
   the `GLITCHTIP_DSN` environment variable.
+
+- x:
+
+  A `gt_connection` object.
+
+- ...:
+
+  Ignored. Present for S3 method compatibility.
 
 ## Value
 

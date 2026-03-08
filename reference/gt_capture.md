@@ -40,15 +40,8 @@ evaluated normally and nothing is reported.
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
+# With an inactive connection (no DSN), gt_capture() is a transparent no-op
 gt <- gt_connect()
 
-# In a plumber2 route
-#* @get /data
-function(request) {
-  gt_capture(gt, {
-    # your route logic here
-  }, request = request)
-}
-} # }
+result <- gt_capture(gt, 1 + 1)
 ```
